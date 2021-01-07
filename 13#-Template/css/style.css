@@ -143,6 +143,9 @@ a {
 	text-decoration: none;
 	outline: none !important;
 }
+button:focus {
+    outline: none;
+}
 
 a,
 .btn {
@@ -153,6 +156,11 @@ a,
 	-ms-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+
 }
 
 img {
@@ -1724,7 +1732,7 @@ font-size: 18px;
 	position: relative;
 }
 .banner-main .carousel-caption h1 {
-	color: #BA55D3;
+	color: #FAFAD2;
 	font-family: 'Averia Serif Libre';
 	font-size: 50px;
     line-height: 90px;
@@ -1738,7 +1746,8 @@ font-size: 18px;
 	 }
 .banner-main .carousel-caption a {
     width: 250px;
-	background: red;
+	background-color: #6b0f1a;
+    background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
 	padding: 9px 0px;
 	color: #fff;
 	font-size: 17px;
@@ -1749,7 +1758,7 @@ font-size: 18px;
 
 }
 .banner-main .carousel-caption a:hover {
-	background: #000;
+	background: #DA70D6;
 }
 .yellow_bold {color: #ffc221;}
 
