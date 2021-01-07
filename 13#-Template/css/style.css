@@ -1055,9 +1055,10 @@ nav.main-menu {
 .main-menu ul>li a {
 	padding: 30px 23px 0 23px;
 	line-height: 20px;
-	font-size: 16px;
+	font-size: 14px;
+	font-family: 'Cantata One';
 	display: block;
-	font-weight: 500;
+	font-weight: bold;
 	color: #010005;
 	text-transform: uppercase;
 }
@@ -1072,7 +1073,7 @@ nav.main-menu {
 
 .main-menu ul>li .sub-down li a {
 	color: #114c7d;
-	font-size: 15px;
+	font-size: 20px;
 	text-transform: capitalize;
 	font-weight: 300;
 	padding: 12px 5px;
@@ -1654,7 +1655,8 @@ input[type="radio"] .styled:checked+label::after {
 
 
 .buy {
-background: #ffc221;
+background: #9400D3;
+color: white;
 padding: 7px 41px !important;
 margin-top: 18px;
 border-radius: 5px;
@@ -1663,7 +1665,7 @@ float: right;
 }
 
 .buy:hover {
-	color: #fff;
+	color: #0000000;
 }
 
 .head_top {
@@ -1722,27 +1724,28 @@ font-size: 18px;
 	position: relative;
 }
 .banner-main .carousel-caption h1 {
-	color: #020000;
-	font-size: 85px;
+	color: #BA55D3;
+	font-family: 'Averia Serif Libre';
+	font-size: 50px;
     line-height: 90px;
 	text-transform: uppercase;
 }
 .banner-main .carousel-caption p {
 	color: #050000;
     font-weight: 500;
-    	
     line-height: 23px;
+    font-size: 20px;
 	 }
 .banner-main .carousel-caption a {
     width: 250px;
-background: #ffc221;
-padding: 9px 0px;
-color: #fff;
-font-size: 17px;
-border-radius: 30px 0px 30px 30px;
-display: inline-block;
-text-align: center;
-margin-top: 20px;
+	background: red;
+	padding: 9px 0px;
+	color: #fff;
+	font-size: 17px;
+	border-radius: 30px 0px 30px 30px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
 
 }
 .banner-main .carousel-caption a:hover {
@@ -1754,8 +1757,7 @@ margin-top: 20px;
 
 .whyschose {
 	background-color: #f8ceec;
-   background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
- ;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
     padding-top: 50px;
 }
 
@@ -2174,11 +2176,13 @@ ul.lik li a:hover {
 	font-weight: bold;
 	font-size: 40px !important;
 	text-transform: uppercase;
+	color: white;
 }
 
 
 .brand_color {
-     background-color: #ffc221;
+     background-color: #8d5185;
+     background-image: linear-gradient(315deg, #8d5185 0%, #a1bafe 74%);
 }
 .brand_color .titlepage {
      margin-top: 70px;
@@ -2187,7 +2191,7 @@ text-align: center;
 }
 
 .brand_color .abouttitle h2 {
-     color: #fff;
+     color: white;
      text-transform: uppercase;
      font-size: 40px;
      line-height: 45px;
@@ -2204,7 +2208,7 @@ text-align: center;
 } 
 
 .form-control {
-     border: #ffc221 solid 2px;
+     border: #BA55D3 solid 2px;
      border-radius: inherit;
      margin-bottom: 30px;
      padding: 13px 20px;
@@ -2217,7 +2221,7 @@ text-align: center;
 
 .textarea {
      font-family: poppins;
-     border: #ffc221 solid 2px;
+     border: #BA55D3 solid 2px;
      margin-bottom: 30px;
      padding: 13px 20px;
      width: 100%;
@@ -2234,10 +2238,13 @@ text-align: center;
     padding: 12px 0px;
     width: 100%;
     font-size: 17px;
+    background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
 }
 
 .send:hover {
-     background: #ffc221;
+     background-color: #9ab5e1;
+     background-image: linear-gradient(315deg, #9ab5e1 0%, #f39fdc 74%);
 }
 
 
@@ -2294,10 +2301,10 @@ text-align: center;
 
 
 
-.about {padding-top: 90px;}
+.about {padding-top: 10px;}
 .about .about_box figure {margin: 0;}
 .about .about_box figure img {width: 100%;}
-.about .about_box h3 {color: #000; font-weight: bold; font-size: 30px; line-height: 35px;}
+.about .about_box h3 {color: #4B0082; font-weight: bold; font-size: 30px; line-height: 35px;}
 .about .about_box p {color: #000; font-size: 17px; line-height: 23px; padding-top: 10px;}
 
 .about-bg {
@@ -2374,7 +2381,7 @@ text-align: center;
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-	background: #ffc221;
+	background: #BA55D3;
 	color: #fff;
 }
 
