@@ -52,29 +52,31 @@
       <header>
          <!-- header inner -->
          <div class="header">
-            <!--<div class="head_top">
+            <div class="head_top">
                <div class="container">
                   <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                        <div class="top-box">
                        <ul class="sociel_link">
-                         <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+                         <li> <a href="#"><i class="fa fa-facebook-f" style="display: none"></i></a></li>
+                         <li> <a href="#"><i class="fa fa-twitter" style="display: none"></i></a></li>
+                         <li> <a href="#"><i class="fa fa-instagram" style="display: none"></i></a></li>
+                         <li> <a href="#"><i class="fa fa-linkedin" style="display: none"></i></a></li>
+                         <li> <a href="#"><i class="fa fa-instagram" style="display: none"></i></a></li>
+                         <li> <a href="#"><i class="fa fa-linkedin" style="display: none"></i></a></li>
                      </ul>
                     </div>
                   </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                       <div class="top-box">
-						       <i class="fa fa-shopping-cart" aria-hidden="true" style="font-size:35px"></i>
-						       <i class="fa fa-heart" style="font-size:35px"></i>
+                       <div class="top-box" style="padding-top:10px">
+						       <button  class="btn btn-light" style="float:right;color:red" onclick="location.href='shoppingcart.html';"><i class="fa fa-shopping-cart" aria-hidden="true" style="font-size:20px;padding-left: 0;padding-bottom: 2px;padding-top: 2px">&nbsp;&nbsp;&nbsp;Cart(2)</i></button>
+						       
                     </div>
                   </div>
 
                </div>
             </div>
-         </div>-->
+         </div>
          <div class="container">
             <div class="row">
                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
@@ -94,7 +96,7 @@
                               <li> <a href="product.html">Cakes</a> </li>
                               <li> <a href="blog.html"> Gallery</a> </li>
                               <li> <a href="contact.html">Contact</a> </li>
-                              <li class="mean-last"> <a href="#contact">signup</a> </li>
+                              <li class="mean-last"> <a href="signup.html" target="_blank">signup</a> </li>
                                
                            </ul>
                         </nav>
@@ -102,7 +104,7 @@
                   </div>
                </div>
                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                  <li><a class="buy" href="#">Login</a></li>
+                  <li><a class="buy" href="login.html" target="_blank">Login</a></li>
                </div>
                
             </div>
@@ -110,6 +112,7 @@
          <!-- end header inner --> 
       </header>
       <!-- end header -->
+
       <section class="slider_section">
          <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
 
@@ -122,7 +125,7 @@
                            <strong class="yellow_bold"></strong></h1>
                         <p style="font-family: 'Cookie';font-size: 40px">Best Place for your dream wedding cake </p>
                         <br/>
-                        <a  href="#">Our Cake Designs</a>
+                        <a  href="product.html">Our Cake Designs</a>
                      </div>
                   </div>
                </div>
@@ -132,7 +135,7 @@
                      <div class="carousel-caption relative">
                         <h1 style = "color: #DB7093"> <strong class="black_bold">Every Cake Has a Story To Tell</strong></h1>
                         <p style="font-family: 'Cookie';font-size: 40px">There are lots of memorable moments with our wedding cakes</p>
-                        <a  href="#">See Cake Stories</a>
+                        <a  href="blog.html">See Cake Stories</a>
                      </div>
                   </div>
                </div>
@@ -370,7 +373,7 @@
                      <i><a href="#"><img src="images/p1.jpg"/></i>
                      <h3>Wedding Cake Pieces</h3>
                      <span><p style="font-weight: bold;">Rs 50/piece</p></span></a><br/>
-                     <button type="button" class="btn btn-danger" >Add to Cart</button>
+                     <button type="button" class="btn btn-danger" onclick="location.href='shoppingcart.html';" >Add to Cart</button>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
@@ -378,7 +381,7 @@
                      <i><a href="#"><img src="images/p2.jpg"/></i>
                      <h3>Red Rose Cake</h3>
                      <span><p style="font-weight: bold;">Rs 5000</p></span></a><br/>
-                     <button type="button" class="btn btn-danger" >Add to Cart</button>
+                     <button type="button" class="btn btn-danger" onclick="location.href='shoppingcart.html';" >Add to Cart</button>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
@@ -386,7 +389,7 @@
                      <i><a href="#"><img src="images/p3.jpg"/></i>
                      <h3>Purple Crown Cake</h3>
                      <span><p style="font-weight: bold;">Rs 8000</p></span></a><br/>
-                     <button type="button" class="btn btn-danger" >Add to Cart</button>
+                     <button type="button" class="btn btn-danger" onclick="location.href='shoppingcart.html';" >Add to Cart</button>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
@@ -394,7 +397,7 @@
                      <i><a href="#"><img src="images/p4.jpg"/></i>
                      <h3>Peach Rose Cake</h3>
                      <span><p style="font-weight: bold;">Rs 6500</p></span></a><br/>
-                     <button type="button" class="btn btn-danger" >Add to Cart</button>
+                     <button type="button" class="btn btn-danger" onclick="location.href='shoppingcart.html';" >Add to Cart</button>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
@@ -402,7 +405,7 @@
                      <i><a href="#"><img src="images/p5.jpg"/></i>
                      <h3>Classic White Cake</h3>
                      <span><p style="font-weight: bold;">Rs 5500</p></span></a><br/>
-                     <button type="button" class="btn btn-danger" >Add to Cart</button>
+                     <button type="button" class="btn btn-danger" onclick="location.href='shoppingcart.html';" >Add to Cart</button>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
@@ -410,7 +413,7 @@
                      <i><a href="#"><img src="images/p6.jpg"/></i>
                      <h3>Blue Elegant Cake</h3>
                      <span><p style="font-weight: bold;">Rs 6500</p></span></a><br/>
-                     <button type="button" class="btn btn-danger" >Add to Cart</button>
+                     <button type="button" class="btn btn-danger"  onclick="location.href='shoppingcart.html';">Add to Cart</button>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
@@ -418,7 +421,7 @@
                      <i><a href="#"><img src="images/p7.jpg"/></i>
                      <h3>Mr & Mrs White Cake</h3>
                      <span><p style="font-weight: bold;">Rs 10000</p></span></a><br/>
-                     <button type="button" class="btn btn-danger" >Add to Cart</button>
+                     <button type="button" class="btn btn-danger" onclick="location.href='shoppingcart.html';">Add to Cart</button>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
@@ -426,7 +429,7 @@
                      <i><a href="#"><img src="images/p8.png"/></i>
                      <h3>Flower And Honey Cake</h3>
                      <span><p style="font-weight: bold;">Rs 8000</p></span></a><br/>
-                     <button type="button" class="btn btn-danger" >Add to Cart</button>
+                     <button type="button" class="btn btn-danger" onclick="location.href='shoppingcart.html';" >Add to Cart</button>
                   </div>
                </div>
               
@@ -436,7 +439,7 @@
                </div>
             </div>
          <div style="text-align: center;padding-top:2em;">
-            <button type="button" class="btn btn-primary btn-lg" style = "background: #9400D3;border: none">View All >></button>
+            <button type="button" class="btn btn-primary btn-lg" style = "background: #9400D3;border: none" onclick="location.href='product.html';">View All >></button>
          </div>
          </div>
 

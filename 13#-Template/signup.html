@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/popup.css">
+    <!-- fevicon -->
+    <link rel="icon" href="icon/cakeIcon.png" type="image/gif" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="center">
+      <div class="container">
+        
+        <div class="text">Sign Up</div>
+        <form action="#" onsubmit="return validate()" id = "signupForm">
+          <div class="data">
+            <label>Name</label>
+            <input type="text" required>
+          </div>
+          <div class="data">
+            <label>Email</label>
+            <input type="email" required>
+          </div>
+          <div class="data">
+            <label>Password</label>
+            <input type="password" id = "pass" required>
+          </div>
+          <div class="data">
+            <label>Confirm Password</label>
+            <input type="password"  id = "cPass" required>
+          </div>
+          <div class="btn">
+            <div class="inner"></div>
+            <button type="submit">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!--form validation script-->
+    <script>
+
+      function validate(){
+
+        var password = document.getElementById("pass").value;
+        var cPass = document.getElementById("cPass").value;
+
+        if(password != cPass){
+
+          alert("Password and Confirm Password values are different!");
+          document.getElementById("signupForm").reset();
+          return false;
+        }else{
+
+          document.getElementById("signupForm").reset();
+          return true;
+        }
+      }
+    </script>
+
+  </body>
+</html>

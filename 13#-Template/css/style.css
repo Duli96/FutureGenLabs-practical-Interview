@@ -1402,6 +1402,7 @@ nav.main-menu {
 	padding-right: 0;
 	z-index: 5;
 	height: 150%
+	
 
 }
 
@@ -1680,7 +1681,7 @@ float: right;
 }
 
 .head_top {
-margin-bottom: 35px;
+margin-bottom: 5px;
 }
 ul.sociel_link {
 	display: flex;
@@ -2439,4 +2440,13 @@ text-align: center;
 .upBtn:hover {
   background-color: #e056fd;
   background-image: linear-gradient(315deg, #e056fd 0%, #000000 74%);
+}
+
+/**cart**/
+.cartTitle{
+
+  background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+  height:80px;
+  margin-top: 0
 }
